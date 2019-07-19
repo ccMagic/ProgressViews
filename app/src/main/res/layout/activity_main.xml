@@ -7,34 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.github.ccmagic.progressview.ProgressView1
-        android:id="@+id/progressView1"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="showProgressDialog"
+        android:text="Dialog上显示进度条" />
 
-    <com.github.ccmagic.progressview.ProgressView2
-        android:id="@+id/progressView2"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-    <com.github.ccmagic.progressview.ProgressView3
-        android:id="@+id/ProgressView3"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
-
-    <com.github.ccmagic.progressview.RefreshHeadView
-        android:layout_width="210dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/colorPrimary"
-        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="直接在页面上显示进度条" />
 </LinearLayout>
