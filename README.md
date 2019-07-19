@@ -1,5 +1,10 @@
 # ProgressViews
+
 基于Canvas重绘处理的进度条，加载条
+
+[https://github.com/ccMagic/ProgressViews](https://github.com/ccMagic/ProgressViews)
+
+
 
 ### 主样式
 
